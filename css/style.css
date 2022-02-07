@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "NiconneRegular";
+    src: url(../fonts/Niconne-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TenorSansRegular";
+    src: url(../fonts/TenorSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "nextArt";
+    src: url(../fonts/nextart/NEXT\ ART_Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "nextArt";
+    src: url(../fonts/nextart/NEXT\ ART_Bold.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(41, 41, 41);
+    height: 72vh;
+}
+
+.header_inner {
+    /* background-color: rgb(68, 68, 68); */
+    height: 72vh;
+    /* padding-top: 20px; */
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo_link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_img {
+    width: 4vw;
+}
+
+.header_logo {
+    font-family: "NiconneRegular";
+    color: white;
+    font-weight: bold;
+    font-size: 1.46vw;
+    width: 9.43vw;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 7.55vw;
+}
+
+.nav_link {
+    font-weight: 300;
+    font-size: 0.94vw;
+    line-height: 21px;
+    color: #E4E4E4;
+    text-decoration: none;
+    font-family: "TenorSansRegular";
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+.header_content {
+    color: white;
+    margin-top: 14vh;
+    width: 23.28vw;
+    /* width: 40%; */
+}
+.header_title1 {
+    text-transform: uppercase;
+    font-family: "nextArt";
+    font-weight: 600;
+    font-size: 2.50vw;
+    margin-bottom: 15px;
+}
+
+.header_title2 {
+    text-transform: uppercase;
+    font-family: "nextArt";
+    font-weight: bold;
+    font-size: 3.75vw;
+}
+
+.header_decribe {
+    font-weight: 300;
+    font-size: 0.94vw;
+    line-height: 21px;
+    color: white;
+    opacity: 0.7;
+    font-family: "TenorSansRegular";
+    margin-bottom: 2.8vh;
+    margin-top: 1.9vh;
+}
+
+.header_btn {
+    font-family: "nextArt";
+    font-weight: bold;
+    width: 10.42vw;
+    height: 6vh;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.92vw;
+    line-height: 20px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    border: none;
+}
+
+.header_btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.header_btn:active {
+    opacity: 0.6;
+}
