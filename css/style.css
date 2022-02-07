@@ -147,3 +147,70 @@
 .header_btn:active {
     opacity: 0.6;
 }
+
+.about {
+    background-color: rgb(60, 60, 60);
+    padding: 70px;
+}
+
+.skills_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7vh;
+    /* justify-content: space-between; */
+}
+
+.skills_block {
+    /* width: 14.06vw; */
+    /* height: 25vh; */
+    width: calc(32% - 40px);
+	height: calc((27vw - 40px) / 16 * 9);
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 2vh; */
+    margin: 0 auto 2.5vh auto;
+}
+
+.skills_block_title {
+    font-family: "nextArt";
+    font-size: 1.4vw;
+    /* color: #E2A300; */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills_img {
+    height: 75%;
+    max-width: 95%;
+}
+
+.about_content {
+    background-color: rgb(44, 44, 44);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 0 3% 40px 3%;
+}
+
+.about_title {
+    position: relative;
+    bottom: 2.5vh;
+    font-family: "nextArt";
+    font-size: 3.5vw;
+    line-height: 54px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about_describe {
+    font-size: 1.8vw;
+    opacity: 0.7;
+}
